@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0E0E0E;
+}
+.container {
+    border: 1px solid black;
+    font-size: 18px;
+    width: 70%;
+    margin: auto;
+    background-color: hsl(193, 100%, 96%);
+}
+
+.myheader {
+    height: 60vh;
+    padding: 16px;
+    background-image: url(/images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%)
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    
+    padding: 6px;
+    border-radius: 40px;
+    width: 14%;
+    text-align: center;
+    background-color: white;
+    box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.15);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.text{
+    width: 50%;
+}
+
+h1{
+    font-family: 'poppins';
+    font-weight: 600;
+}
+
+p {
+   margin-top: 10px;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    width: 40%;
+    border-radius: 40px;
+    background-color: hsl(322, 100%, 66%);
+    margin-top: 15px;
+    color: white;
+}
+
+.imagetext {
+    width: 40%;
+}
+
+/*main styling starts*/
+
+
+section {
+    border: none;
+    padding: 16px;
+    margin: 30px auto;
+    width: 95% ;
+    border-radius: 40px;
+    box-shadow: 0px 11px 35px 4px rgba(0, 0, 0, 0.15);
+
+}
+
+.second {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.stext {
+    width: 50%;
+}
+
+.imagestext {
+    width: 30%;
+}
+
+.third {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imagesttext {
+    width: 30%
+}
+
+.ttext {
+    width: 50%;
+}
+
+.fourth {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ftext {
+    width: 50%;
+}
+
+.imagesftext {
+    width: 30%;
+}
+
+/*main styling ends*/
+
+
+
+
+/*footer styling begins*/
+
+.buttom {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left {
+    width: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
