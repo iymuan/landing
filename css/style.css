@@ -11,13 +11,14 @@ body {
     border: 1px solid black;
     font-size: 18px;
     width: 70%;
+    
     margin: auto;
     background-color: hsl(193, 100%, 96%);
 }
 
 .myheader {
     height: 60vh;
-    padding: 16px;
+    padding: 18px;
     background-image: url(/images/bg-hero-desktop.svg);
     background-color: hsl(193, 100%, 96%)
 }
@@ -28,14 +29,18 @@ body {
     align-items: center;
 }
 
-a {
-    
+.navbar a {
     padding: 6px;
     border-radius: 40px;
     width: 14%;
     text-align: center;
     background-color: white;
     box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.15);
+    color: black;
+    font-family: 'poppins';
+    font-weight: 600;
+    font-size: small;
+
 }
 
 header {
@@ -57,6 +62,8 @@ h1{
 
 p {
    margin-top: 10px;
+   font-family: 'Open Sans';
+   font-weight: 400;
 }
 
 button {
@@ -75,12 +82,14 @@ button {
 
 /*main styling starts*/
 
-
+main {
+    padding: 30px;
+}
 section {
     border: none;
     padding: 16px;
-    margin: 30px auto;
-    width: 95% ;
+    margin: 50px auto;
+    width: 85% ;
     border-radius: 40px;
     box-shadow: 0px 11px 35px 4px rgba(0, 0, 0, 0.15);
 
@@ -128,6 +137,45 @@ section {
     width: 30%;
 }
 
+.Get-started {
+    border: 1px solid hsl(208, 11%, 55%);
+    border-radius: 20px;
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 3px;
+    padding: 25px;
+    background-color: white;
+    color: hsl(192, 100%, 9%);
+}
+
+.Get-started h3 {
+    font-family: 'poppins';
+    font-weight: 600;
+}
+
+.get-started a {
+    background-color: hsl(322, 100%, 66%);
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 5px 21px;
+    margin-top: 15px;
+    border-radius: 50px;
+    border: 1px solid hsl(322, 100%, 66%);
+  }
+
+  .get-started a:hover {
+    background-color: hsl(322, 79%, 72%);
+  }
+
 /*main styling ends*/
 
 
@@ -135,17 +183,69 @@ section {
 
 /*footer styling begins*/
 
+footer {
+    margin-top: 50px;
+}
+
 .buttom {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    border: 4px solid orange;
+    background-color: hsl(192, 100%, 9%);
 }
 
-.left {
+.footer-left {
     width: 40%;
+    padding-top: 40px;
 }
 
+.h1-logo {
+    display: flex;
+    padding: 10px;
+    color: white;
+}
 
+.left-location,a {
+    color: hsl(193, 100%, 96%);
+    padding: 4px;
+    text-decoration: none;
+}
+.location {
+    padding: 15px;
+}
 
+.phone {
+    padding: 15px;
+}
+
+.email {
+    padding: 15px;
+}
+
+.footer-middle {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+}
+
+ul a {
+    margin-bottom: 10px;
+    color: hsl(193, 100%, 96%);
+    text-decoration: none;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20vh;
+    margin-top: 50px;
+}
 
 
 
